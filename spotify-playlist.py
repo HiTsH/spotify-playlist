@@ -73,8 +73,8 @@ currnet_url = driver.current_url
 
 # Get the authorization code from the user
 code = currnet_url.split('=')[1]
-print(code)
-    # driver.quit()
+# print(code)
+driver.quit()
 
 # Get the authorization code from the user
 # code = input("Enter the authorization code: ")
